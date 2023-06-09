@@ -18,7 +18,7 @@ public class SieveOfEratosthenes {
         }
 
         System.out.println("Prime numbers up to " + maxInteger + ":");
-        for (int i = 2; i <= maxInteger; i++) {
+        for (int i = 2;; i <= maxInteger; i++) {
             if (!isComposite[i]) {
                 System.out.print(i + " ");
             }
